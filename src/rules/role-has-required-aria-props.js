@@ -57,7 +57,7 @@ module.exports = {
 
       const normalizedValues = String(roleAttrValue).toLowerCase().split(' ');
       const validRoles = normalizedValues
-        .filter((val) => [...roles.keys()].indexOf(val) > -1);
+        .filter((val) => roles.keys().indexOf(val) > -1);
 
       // Check semantic DOM elements
       // For example, <input type="checkbox" role="switch" />

@@ -55,7 +55,7 @@ module.exports = {
       if (value === undefined || value === null) { return; }
 
       const values = String(value).split(' ');
-      const validRoles = [...roles.keys()].filter((role) => roles.get(role).abstract === false);
+      const validRoles = roles.keys().filter((role) => roles.get(role).abstract === false);
       const isValid = values.every((val) => validRoles.indexOf(val) > -1);
 
       if (isValid === true) { return; }
