@@ -28,6 +28,8 @@ Static AST checker for accessibility rules on JSX elements.
 
 #### foo
 
+##### needs more FOO
+
 #### *Read this in [other languages](https://github.com/ari-os310/eslint-plugin-jsx-a11y/blob/HEAD/translations/Translations.md).*
 
 [Mexican Spanish🇲🇽](https://github.com/ari-os310/eslint-plugin-jsx-a11y/blob/HEAD/translations/README.mx.md)
